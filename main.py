@@ -34,7 +34,7 @@ for governor in governors:
                 command=lambda: set_governor(user_value.get(),t2),
                 bg="#A11D1D",
                 fg="#DCE4EE",
-                activebackground="#A11D1D",
+                activebackground="#8F1717",
                 activeforeground="#DCE4EE",
                 selectcolor="#791414",
                 highlightbackground="#949A9F",

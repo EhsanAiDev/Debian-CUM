@@ -1,5 +1,6 @@
-import subprocess
+import os 
 import re 
+import subprocess
 
 def get_current_governor():
     result = subprocess.run("cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor",
@@ -24,6 +25,25 @@ def get_governors():
     
 
 def set_governor(g,governor_text):
+    service_text = f"""
+[Unit]
+Description=Set CPU governor
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/cpupower frequency-set -g {g}
+
+[Install]
+WantedBy=multi-user.target
+"""
+    
+    with open('/tmp/cpupower.service', 'w') as temp_file:
+        temp_file.write(service_text)
+    os.system(f"pkexec cpupower frequency-set -g {g}")
+    os.system(f"pkexec mv /tmp/cpupower.service /etc/systemd/system/cpupower.service")
+    os.system(f"pkexec systemctl enable cpupower.service")
     governor_text.configure(text=f"Your Current Governor: {g}")
+
+        
 
 
