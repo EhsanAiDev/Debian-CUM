@@ -46,4 +46,4 @@ In order to apply and persist the selected CPU governor, the app will prompt for
 
 This ensures the operation is secure and avoids running the whole app with elevated privileges.
 
-# ❤️ Built with love for Linux users.
+# ❤️ Built for Linux users.
