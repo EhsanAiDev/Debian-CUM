@@ -28,7 +28,7 @@ a lightweight, dark-themed GUI tool that helps you view and change your CPU freq
 - `cpupower` installed (`sudo apt install linux-tools-common linux-tools-$(uname -r)`)
 - `pkexec` available (via `policykit-1`)
 
-### Run the application:
+### Run the application from source code:
 
 ```bash
 git clone https://github.com/your-username/debian-cum.git
