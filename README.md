@@ -8,9 +8,8 @@ a lightweight, dark-themed GUI tool that helps you view and change your CPU freq
 
 
 ## 📸 Screenshot
-
-*(Add a screenshot here for better visual presentation)*  
-`./assets/screenshot.png`
+here's some shots of application 
+<div style='display: grid; '><img src="./assets/shot1.png"><img src="./assets/shot2.png"></div>
 
 ## ⚙️ Features
 
