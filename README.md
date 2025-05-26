@@ -1,6 +1,7 @@
 # 🧠 Debian-CUM (CPU Usage Manager)
 
-**Debian-CUM** stands for **Debian CPU Usage Manager** — a lightweight, dark-themed GUI tool that helps you view and change your CPU frequency governor on Debian-based systems.
+**Debian-CUM** stands for **Debian CPU Usage Manager** 
+a lightweight, dark-themed GUI tool that helps you view and change your CPU frequency governor on Debian-based systems.
 
 > Built for simplicity and permanence — because your CPU deserves the right governor 😎
 
