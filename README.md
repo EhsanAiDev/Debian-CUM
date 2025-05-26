@@ -4,14 +4,11 @@
 
 > Built for simplicity and permanence — because your CPU deserves the right governor 😎
 
----
 
 ## 📸 Screenshot
 
 *(Add a screenshot here for better visual presentation)*  
 `./assets/screenshot.png`
-
----
 
 ## ⚙️ Features
 
@@ -21,8 +18,6 @@
 - Changes are made permanent using a `systemd` service
 - Secure privilege escalation using `pkexec`
 - Built with [`customtkinter`](https://github.com/TomSchimansky/CustomTkinter) for a sleek UI
-
----
 
 ## 🚀 Getting Started
 
@@ -40,7 +35,7 @@ cd debian-cum
 pip install -r requirements.txt
 python3 main.py
 ```
---- 
+
 ## 🔐 Important Note About Privileges
 In order to apply and persist the selected CPU governor, the app will prompt for your password three times using pkexec:
 
@@ -50,5 +45,4 @@ In order to apply and persist the selected CPU governor, the app will prompt for
 
 This ensures the operation is secure and avoids running the whole app with elevated privileges.
 
----
 # ❤️ Built with love for Linux users.
