@@ -4,14 +4,16 @@ import subprocess
 from funcs import *
 from tkinter import *
 
+
 set_appearance_mode("dark")
-set_default_color_theme("./themes/theme.json")
-governors = get_governors()
+set_default_color_theme("/usr/share/debian-cum/static/theme.json")
+
 window = CTk()
 window.maxsize(width=350, height=450)
 window.minsize(width=350, height=450)
 window.title("Debian Cpu Usage Manager")
 
+governors = get_governors()
 current_governor = get_current_governor()
 Index_Of_Current_Governor = governors.index(current_governor)
 

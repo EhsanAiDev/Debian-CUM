@@ -1,0 +1,6 @@
+main.py usr/share/debian-cum/
+funcs.py usr/share/debian-cum/
+static usr/share/debian-cum/
+debian-cum usr/bin/
+debian-cum.desktop usr/share/applications/
+debian-cum.png usr/share/pixmaps/

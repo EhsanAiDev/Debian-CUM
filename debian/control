@@ -1,0 +1,13 @@
+Source: debian-cum
+Section: utils
+Priority: optional
+Maintainer: naku tenshi <ehsan.aidev@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: debian-cum
+Architecture: all
+Depends: ${misc:Depends}, python3, python3-tk, python3-pip
+Description: Debian CPU Usage Manager
+ A graphical tool to manage and persist CPU frequency governors on Debian-based systems.
+
