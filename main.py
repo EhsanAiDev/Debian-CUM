@@ -8,10 +8,15 @@ from tkinter import *
 set_appearance_mode("dark")
 set_default_color_theme("/usr/share/debian-cum/static/theme.json")
 
+
 window = CTk()
 window.maxsize(width=350, height=450)
 window.minsize(width=350, height=450)
 window.title("Debian Cpu Usage Manager")
+
+icon = PhotoImage(file="/usr/share/pixmaps/debian-cum.png")
+window.iconphoto(False , icon)
+
 
 governors = get_governors()
 current_governor = get_current_governor()
